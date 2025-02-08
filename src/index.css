@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'MALDINIBOLD';
+  src: url('/src/assets/fonts/MALDINIBOLD.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Hide the scrollbar */
+  #hero .scrollbar-hide::-webkit-scrollbar { width: 0;  display: none;}
+  
